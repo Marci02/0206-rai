@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <table>
+            <tr>
+                <td>Név kiválasztása</td>
+                <td><select name="op" id="op" onchange="szamolas()">
+                    <option value="Lili">Lili</option>
+                    <option value="Hanna">Hanna</option>
+                    <option value="Bálint">Bálint</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Futásra kapott pontok:</td>
+                <td><input type="number" name="futas" id="futas" value="0" onchange="szamolas()"></td>
+            </tr>
+            <tr>
+                <td>Talajgyakorlatokra kapott pontok:</td>
+                <td><input type="number" name="talaj" id="talaj" value="0" onchange="szamolas()"></td>
+            </tr>
+            <tr>
+                <td>Eredmény: </td>
+                <td><p id="eredmeny"></p></td>
+            </tr>
+        </table>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

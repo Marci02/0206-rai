@@ -1,0 +1,15 @@
+Hozz létre az index fájlon belül egy olyan szemantikus html elemet, 
+amelyet általában azonos elemek csoportosítására használunk, hogy ezzel
+szekciókra tudjuk felosztani az oldalt. 
+
+Hozz létre egy táblázatot, melyben a minta szerint rendezed el az elemeket.
+Az első sorban ki lehessen választani a nevet, 3 névből.
+A második sorban be lehessen írni az input mezőbe egy számot, és a harmadik sorban is.
+A negyedik sorba, egy p html tagbe írd be az eredményt, úgy hogy össze fűzöd a szükséges szöveggel. Az eredmény a kiválasztott névtől és megadott pontszámoktó függően így nézze ki: 	
+Lili összesen 4 pontot kapott.
+
+Az oldal háttere egyszínű szürke legyen.
+A befoglaló elemet helyezd a minta szerint az oldal közepére flexbox tulajdonságok és értékek megadásával. (margin auto-t nem fogadom el megoldásnak)
+A táblázatot befoglaló elem szélessége 300px legyen, és adj hozzá 20px belső margót is, a széleit 10px-el kerekítsd le. Adj hozzá árnyékot is, amelyet 10px-el tolsz el jobbra és lefelé, a szórása is 10px legyen, és fekete színű.
+
+
